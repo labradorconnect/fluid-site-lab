@@ -142,13 +142,14 @@ font-size: clamp(0.85rem, 0.78rem + 0.294vw, 1.25rem);
                    "intro-msg2"
                    "teaser-text"
                    "hero-button"
-                   "companies1"
-                   "companies2"
-                ;
-  grid-template-rows: max-content max-content max-content max-content max-content max-content max-content;
+                   "companies"
+                  "scroller1"
+                  "scroller2";
+  grid-template-rows: max-content max-content max-content max-content max-content max-content max-content max-content;
   padding: 1rem;
   grid-gap: 1rem;
  z-index: 1;
+ overflow: hidden;
  
 }
 
@@ -172,14 +173,20 @@ font-size: clamp(0.85rem, 0.78rem + 0.294vw, 1.25rem);
   grid-area: hero-button;
 }
 
-.companies1 {
-  grid-area: companies1;
+.companies {
+  grid-area: companies;
   padding-top: 1.75rem;
  
 }
 
-.companies2 {
-  grid-area: companies2;
+.scroller1 {
+  grid-area: scroller1;
+  padding-top: 1.75rem;
+ 
+}
+
+.scroller2 {
+  grid-area: scroller2;
 
  
 }
@@ -250,6 +257,7 @@ font-weight: 700;
 
   .scroller {
     max-width: CALC(50vw - 3em);
+    
   }
   
   .scroller__inner {
