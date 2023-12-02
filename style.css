@@ -841,11 +841,11 @@ align-items: center;
   z-index: 0; 
 } 
 
-.founder-main h1, .founder-main h2, .founder-main h3, .founder-main h4, .founder-main h5, .founder-main h6, .founder-main p, .founder-main span, .hero img, .hero h2, .hero p, .hero button, .intro-msg1, .intro-msg2, .intro-msg-p, .logo, .teaser-text, .companies, .companies img, .companies h3, .companies p, .companies button, .companies button a, .companies button a:hover, .companies button a:focus, .companies button a:active, .companies button:hover, .companies button:focus, .companies button:active, .companies button, .companies button a, .companies button a:hover, .companies button a:focus, .companies button a:active, .companies button:hover, .companies button:focus, .companies button:active, .companies button, .companies button a, .companies button a:hover, .companies button a:focus, .companies button a:active, .companies button:hover, .companies button:focus, .companies button:active, .companies button, .companies button a, .companies button a:hover, .companies button a:focus, .companies button a:active, .companies button:hover, .companies button:focus, .companies button:active {
+/* .founder-main h1, .founder-main h2, .founder-main h3, .founder-main h4, .founder-main h5, .founder-main h6, .founder-main p, .founder-main span, .hero img, .hero h2, .hero p, .hero button, .intro-msg1, .intro-msg2, .intro-msg-p, .logo, .teaser-text, .companies, .companies img, .companies h3, .companies p, .companies button, .companies button a, .companies button a:hover, .companies button a:focus, .companies button a:active, .companies button:hover, .companies button:focus, .companies button:active, .companies button, .companies button a, .companies button a:hover, .companies button a:focus, .companies button a:active, .companies button:hover, .companies button:focus, .companies button:active, .companies button, .companies button a, .companies button a:hover, .companies button a:focus, .companies button a:active, .companies button:hover, .companies button:focus, .companies button:active, .companies button, .companies button a, .companies button a:hover, .companies button a:focus, .companies button a:active, .companies button:hover, .companies button:focus, .companies button:active {
 
   z-index: 1;
 
-}
+} */
 
 .companies {
  display: flex;
