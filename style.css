@@ -142,12 +142,13 @@ font-size: clamp(0.85rem, 0.78rem + 0.294vw, 1.25rem);
                    "intro-msg2"
                    "teaser-text"
                    "hero-button"
-                   "companies"
+                   "companies1"
+                   "companies2"
                 ;
   grid-template-rows: max-content max-content max-content max-content max-content max-content max-content;
   padding: 1rem;
   grid-gap: 1rem;
- 
+ z-index: 1;
  
 }
 
@@ -171,9 +172,15 @@ font-size: clamp(0.85rem, 0.78rem + 0.294vw, 1.25rem);
   grid-area: hero-button;
 }
 
-.companies {
-  grid-area: companies;
-  margin-top: 1.75rem;
+.companies1 {
+  grid-area: companies1;
+  padding-top: 1.75rem;
+ 
+}
+
+.companies2 {
+  grid-area: companies2;
+
  
 }
 
